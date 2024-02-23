@@ -6,5 +6,5 @@ public stuff that I need to clone anywhere
 sudo -i
 apt update && apt upgrade -y && apt install git -y
 git clone https://github.com/deepankar715/public.git
-bash rpi_omv_plex.sh
+bash public/rpi_omv_plex.sh
 ```
