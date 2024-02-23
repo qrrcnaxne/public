@@ -1,7 +1,5 @@
 set -ex
 
-apt update 
-apt upgrade -y
 wget -O - https://raw.githubusercontent.com/OpenMediaVault-Plugin-Developers/installScript/master/install | bash
 apt install apt-transport-https
 rm -f PlexSign.key
