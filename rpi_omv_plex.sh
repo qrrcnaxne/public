@@ -18,4 +18,4 @@ mkdir -p /etc/apt/keyrings
 mv PlexSign.key /etc/apt/keyrings
 echo "deb [signed-by=/etc/apt/keyrings/PlexSign.key] https://downloads.plex.tv/repo/deb public main" > /etc/apt/sources.list.d/plexmediaserver.list
 apt update
-apt install plexmediaserver
+apt install plexmediaserver -y
